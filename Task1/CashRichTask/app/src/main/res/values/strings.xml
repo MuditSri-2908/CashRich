@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CashRichTask1</string>
+    <string name="conternt_desc_logo">Bank Logo</string>
+    <string name="currency_symb">Currency Symbol</string>
+    <string name="full_withdraw">Full Withdrawal</string>
+    <string name="current">Current Value</string>
+    <string name="withdraw_amt">Withdrawal Amount</string>
+</resources>

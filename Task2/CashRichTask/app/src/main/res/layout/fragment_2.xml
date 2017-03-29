@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mudit.android.cashrichtask.Fragment2">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/card_width"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        app:cardElevation="@dimen/card_elev"
+        android:padding="@dimen/card_pad"
+        android:layout_gravity="center_horizontal"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Hint_Val"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberSigned" />
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
